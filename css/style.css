@@ -1,0 +1,343 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../fonts/vazir/Vazir.woff2) format("woff2");
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .label-container{
+        padding: 5px;
+    }
+    .badge-container{
+        overflow: scroll;
+    }
+    .card img{
+        height:350px !important;
+    }
+    .info-item{
+        margin-top: 1rem;
+    }
+    .info-list{
+        display: flex;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        width: 552px;
+        padding: 20px;
+        /* background-color: rgb(243, 243, 243); */
+        border-radius: 10px;
+    }
+    .sub-info-list{
+         padding: 3px 30px !important ;
+         margin: 0 20px;
+    }
+    .sub-info-list a{
+        display: block;
+        width: max-content;
+    }
+}
+
+@media screen and (max-width:768px){
+    .sub-image-col img{
+        height: 150px !important;
+    }
+    .yellow-cana{
+        width: 80% !important;
+    }
+    
+    .badge-container{
+        overflow: scroll;
+    }
+    .card img{
+        height:350px !important;
+    }
+    .info-item{
+        margin-top: 1rem;
+    }
+    .info-list{
+        display: flex;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        width: 552px;
+        padding: 20px;
+        /* background-color: rgb(243, 243, 243); */
+        border-radius: 10px;
+    }
+    .sub-info-list{
+         padding: 3px 30px !important ;
+         margin: 0 20px;
+    }
+    .sub-info-list a{
+        display: block;
+        width: max-content;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "vazir";
+}
+
+body {
+    direction: rtl;
+    overflow-x:hidden ;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#top-menu{
+    font-size: 12px;
+}
+::-webkit-scrollbar{
+    width: 2vh;
+    height: 2vh;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 2rem;
+    background:  rgb(45, 63, 106);
+    background: linear-gradient(45deg, rgb(45, 63, 106) 0%, rgba(129,123,227,1) 48%, rgba(255,91,0,1) 100%);
+    }
+.nav-link{
+    color: rgb(58, 58, 58);
+}
+.btn{
+    font-size: 13px;
+}
+.welcome{
+    font-size: 13px;
+}
+#logo-pic{
+    height: 40px;
+    width: 160px;
+}
+.dropdown-item{
+    font-size: 12px;
+}
+::placeholder {
+    font-size: 12px;
+}
+#textbox-holder{
+    border: 2px solid rgb(255, 98, 0);
+    border-radius: 30px;
+    position: relative;
+}
+#searchbox{
+    outline: none;
+    border: none;
+}
+#search-sp{
+    height:100%;
+    width: 45px;
+    background-color: rgb(255, 98, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.botoom-header{
+    background-color: rgb(45, 63, 106);
+}
+.categury-title{
+    width: max-content;
+}
+.top-carousel .item{
+    height:100% ;
+}
+.top-carousel .item img {
+    height:400px;
+}
+.top-carousel{
+    border-radius: 20px;
+}
+.sub-image-col{
+    min-height: 200px;
+}
+.right-col img,.left-col img{
+    height: 100%;
+} 
+.holder-left-col{
+    background-color: rgb(243, 243, 243);
+    height: 450px;
+}
+.holder-left-col img{
+    height: 200px;
+}
+.blue-date{
+    text-align: center;
+    background-color: rgb(45, 63, 106);
+}
+.orange-text{
+    color: rgb(255, 98, 0);
+}
+.service-wrapper{
+    background-color: rgb(243, 243, 243);
+}
+.off-text p{
+    width: max-content;
+}
+.service-text-holder p{
+    font-size: 12px;
+}
+.service-text-holder h6{
+    width: max-content;
+}
+.darkBlue-section{
+    background-color: rgb(45, 63, 106);
+}
+.product-wrapper{
+    width: 25%;
+}
+.card-img-top{
+    height: 200px;
+}
+.jewelry-section{
+    background-color: rgb(243, 243, 243);
+    border-radius: 40px;
+}
+.jewelry-title{
+    border-radius: 25px;
+}
+.jewelry-image{
+    border-radius: 2rem;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.image-holder{
+    background-color:white;
+    height: 150px;
+    width: 150px;
+}
+.image-holder img{
+    height: 100%;
+}
+.owl-carousel-two .item{
+    width: 95%;
+}
+.gray-img-holder-p{
+    font-size: 10px;
+}
+.see-more{
+    border-top: 1px solid gray;
+    font-size: 12px;
+}
+.img-title{
+    width: 30%;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+.footer-darkblue-section{
+    background-color: rgb(45, 63, 106);
+}
+.social-media-wrapper{
+    width: 40px;
+    height: 40px;
+}
+.emailbox{
+    padding: 8px 0;
+    padding-left: 200px;
+    padding-right:10px;
+    border-radius: 2rem;
+}
+.submit-btn{
+background-color:  rgb(255, 98, 0);
+top: 4px;
+left: 10px;
+border-radius: 2rem;
+}
+.support-text{
+    font-size: 13px;
+}
+.acces-wrapper{
+font-size: 13px;
+line-height: 1.5;
+}
+.info-list{
+    font-size: 12px;
+    margin: 5px;
+}
+.label-section{
+    background-color: rgb(243, 243, 243);
+}
+.badge{
+ font-size: 10px;
+ font-weight: normal;  
+}
+.copyright-texts{
+    font-size: 12px;
+}
+.copyright-logos img{
+    width:50px;
+    height:25px;
+}
+#search-sp .icon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top:7px;
+    color: white;
+    left: 15px;
+}
+#personal .icon{
+    width: 50px;
+    height: 50px;
+    padding: 11px;
+}
+.heart-logo .icon{
+    width: 2rem;
+    height: 2rem;
+    padding: 6px;
+}
+.menu-logo .icon{
+    width: 2rem;
+    height: 2rem;
+    top: 10px;
+    left: 10px;
+}
+.menu .icon{
+    width: 2rem;
+    height: 2rem;
+    color: white; padding: 5px;
+    background-color: rgb(92, 116, 176);
+    border-radius: 10px;
+}
+.stars-holder .icon{
+width: 1.5rem;
+height: 1.5rem;
+color: rgb(255, 174, 0);
+}
+.services-logos .icon{
+    width: 3rem;
+    height:3rem;
+    left: 10px;
+}
+.social-media-wrapper .icon{
+    top:12px;
+    left:12px;
+    color: rgb(45, 63, 106);
+}
+.social-media-wrapper{
+    background-color:white;
+}
+.navbar-toggler{
+    background-color: rgb(92, 116, 176);
+    border-radius: 10px; 
+
+}
+.navbar-toggler-icon{
+    background-color:white;
+    color: white;
+}
+.btn-search{
+    background-color: rgb(255, 98, 0);
+    color: white;
+    margin-right: 5px;
+}
+.btn-search:hover{
+    background-color:rgb(92, 116, 176);
+    color: white;
+
+}
